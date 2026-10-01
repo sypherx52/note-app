@@ -5,7 +5,7 @@ import Header from "./components/header";
 import NoteEditor from "./components/noteEditor";
 import Notelist from "./components/noteList";
 import TrashPage from "./components/trash";
-
+import "./App.css";
 
 
 const App = () => {
