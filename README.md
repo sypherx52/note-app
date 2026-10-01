@@ -1,16 +1,103 @@
-# React + Vite
+# 📝 NoteApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern notes application built with **React + Vite**.
 
-Currently, two official plugins are available:
+NoteApp allows users to create, edit, search, pin, favorite, and delete notes, with a dedicated trash section for deleted notes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 📝 Create and edit notes
+* 🔍 Search notes
+* 📌 Pin important notes
+* ⭐ Favorite notes
+* 🗑️ Move notes to trash
+* ♻️ Manage deleted notes
+* 💾 Persistent data using Local Storage
+* 📱 Responsive interface
+* ⚡ Fast development with Vite
+* 🎨 Modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript
+* CSS
+* Remix Icons
+* Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sypherx52/note-app.git
+```
+
+Navigate into the project:
+
+```bash
+cd note-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will then be available on the local development server provided by Vite.
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── header.jsx
+│   ├── noteEditor.jsx
+│   ├── noteList.jsx
+│   ├── noteListItem.jsx
+│   ├── sidebar.jsx
+│   └── trash.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## 🎯 Project Purpose
+
+This project was built to practice and demonstrate React concepts including:
+
+* Components
+* Props
+* State management
+* Event handling
+* Conditional rendering
+* React Router
+* Local Storage
+* Component-based UI development
+
+## 📌 Future Improvements
+
+* User authentication
+* Cloud synchronization
+* Markdown support
+* Dark mode
+* Note categories and labels
+* Backend integration
+* AI-powered note features
+
+---
+
+Made with ❤️ using React.
+
+
+
